@@ -1,0 +1,39 @@
+{
+  "name": "pimatic-uber",
+  "description": "Get Uber information in the Pimatic dashboard.",
+  "author": "Andy Savage <andy@savage.hk> (http://www.github.com/hongkongkiwi)",
+  "license": "MIT",
+  "main": "uber",
+  "configSchema": "uber-config-schema.coffee",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "uber.coffee",
+    "uber-config-schema.coffee",
+    "device-config-schema.coffee.coffee"
+  ],
+  "scripts": {
+    "test": "echo \"Pimatic Modules Cannot be Tested!\" && exit 1"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongkongkiwi/pimatic-uber.git"
+  },
+  "keywords": [
+    "uber",
+    "pimatic"
+  ],
+  "dependencies": {
+    "node-uber": "^0.9.6"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "devDependencies": {}
+}
