@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Pimatic Modules Cannot be Tested!\" && exit 1"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "pimatic"
   ],
   "dependencies": {
-    "node-uber": "^0.9.6"
+    "node-uber": "https://github.com/hongkongkiwi/node-uber.git"
   },
   "peerDependencies": {
     "pimatic": ">=0.8.0 <1.0.0"
