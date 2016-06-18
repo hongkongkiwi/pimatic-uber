@@ -69,6 +69,8 @@ If you want to control which values are displayed, you can use the following:
 
 To work properly, the `UberPriceEstimateDevice` requires a cache file which includes some information on which Uber Product IDs you want to track. See below for an example of Product IDs from Hong Kong:
 
+Add the following to `cache/uber-product-ids.json` file.
+
 ```json
 {
   "3922df1b-b837-4e95-b8d7-14ec806d1243": {
