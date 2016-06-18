@@ -41,6 +41,16 @@ module.exports = (env) ->
         createCallback: (config) => return new UberPriceEstimateDevice(config, @)
       })
 
+      # @framework.on "after init", =>
+      #   # Check if the mobile-frontent was loaded and get a instance
+      #   mobileFrontend = @framework.pluginManager.getPlugin 'mobile-frontend'
+      #   if mobileFrontend?
+      #     mobileFrontend.registerAssetFile 'js', "pimatic-your-plugin/app/some-js.coffee"
+      #     mobileFrontend.registerAssetFile 'css', "pimatic-your-plugin/app/css/some-css.css"
+      #     mobileFrontend.registerAssetFile 'html', "pimatic-your-plugin/app/some-html.jade"
+      #   else
+      #     env.logger.warn "Plugin could not find the mobile-frontend. No gui will be available"
+
   class UberPriceEstimateDevice extends env.devices.Device
 
     constructor: (@config, @plugin) ->
